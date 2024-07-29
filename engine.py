@@ -7,7 +7,7 @@ import time
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configure the Gemini API with the API key directly
-genai.configure(api_key="AIzaSyCDhu6BQo9XrD_qcCV5fwpeMa0aIA7OlpQ")
+genai.configure(api_key="Your-Gemini-api-key")
 
 # Generation configuration for the Gemini model
 generation_config = {
